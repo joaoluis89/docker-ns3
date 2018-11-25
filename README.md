@@ -14,7 +14,8 @@ sudo docker run --rm -it -v `pwd`:/work -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/t
 In the container's shell run:
 
 ```
-python /usr/ns-allinone-3.26/build.py
+cd /usr/ns-allinone-3.26/
+python build.py
 ```
 
 To start NetAnim:
